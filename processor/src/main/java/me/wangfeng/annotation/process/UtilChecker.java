@@ -12,8 +12,6 @@ import javax.tools.Diagnostic;
 
 import me.wangfeng.annotation.Util;
 
-import static me.wangfeng.annotation.process.CheckerHelper.isClassElement;
-
 /**
  * {@link Util Util}注解的类型的合法性检查
  *

@@ -1,7 +1,5 @@
 package me.wangfeng.codecheck;
 
-import android.content.Context;
-
 import me.wangfeng.annotation.Singleton;
 
 /**
