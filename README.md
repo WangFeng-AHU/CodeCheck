@@ -28,7 +28,7 @@ public class ActivityUtils {
 }
 ```
 报错：构造方法未声明成private
-![构造方法未声明成private](/Users/wangfeng/Pictures/annotationpicture/注解－构造函数未声明成private.png "构造方法未声明成private")
+![构造方法未声明成private](images/util_constructor_not_private.png "构造方法未声明成private")
 
 ```java
 @Util
@@ -42,7 +42,7 @@ public class ActivityUtils {
 }
 ```
 报错：声明了多个构造方法
-![声明了多个构造方法](/Users/wangfeng/Pictures/annotationpicture/注解－声明了多个构造方法.png "声明了多个构造方法")
+![声明了多个构造方法](images/util_contains_multi_constructors.png "声明了多个构造方法")
 
 ```java
 @Util
@@ -56,7 +56,7 @@ public class ActivityUtils {
 }
 ```
 报错：包含了非静态方法nonStaticMethod
-![包含了非静态方法](/Users/wangfeng/Pictures/annotationpicture/注解－包含了非静态方法.png "包含了非静态方法")
+![包含了非静态方法](images/util_contains_nonstatic_method.png "包含了非静态方法")
 
 ```java
 @Util
@@ -69,7 +69,7 @@ public class ActivityUtils {
 }
 ```
 报错：包含了非静态变量nonStaticField
-![包含了非静态变量](/Users/wangfeng/Pictures/annotationpicture/注解－包含了非静态变量.png "包含了非静态变量")
+![包含了非静态变量](images/util_contains_nonstatic_field.png "包含了非静态变量")
 
 ## Singleton注解
 使用在单例类上，以便在编译时检查单例类是否符合以下规范：
@@ -97,7 +97,7 @@ public class ActivityManager {
 }
 ```
 报错：构造方法未声明成private
-![构造方法未声明成private](/Users/wangfeng/Pictures/annotationpicture/singleton_not_private.png, "构造方法未声明成private")
+![构造方法未声明成private](images/singleton_constructor_not_private.png "构造方法未声明成private")
 
 ```java
 @Singleton
@@ -110,4 +110,4 @@ public class ActivityManager {
 }
 ```
 报错：没有声明静态getInstance方法
-![未声明静态getInstance方法](/Users/wangfeng/Pictures/annotationpicture/singleton_not_static, "未声明静态getInstance方法")
+![未声明静态getInstance方法](images/singleton_getter_not_static.png "未声明静态getInstance方法")
